@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(32, 32, 29);
+    font-family: sans-serif;
+    width: 65%;
+    margin: auto;
+    --color:rgb(236, 202, 8);
+}
+header h1
+{
+    text-align: center;
+    color: rgb(236, 202, 8);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+section li{
+    list-style: none;
+}
+/* main */
+a
+{
+    color: orange;
+    text-decoration: none;
+}
+section
+{
+    padding:30px ;
+    padding-left: 30px;
+    background-color: rgb(253, 251, 216);
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+section ul{
+    padding-left: 0%;
+}
+section li button
+{
+    font-weight: 400;
+    
+    cursor: pointer;
+}
+#number
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#number label
+{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#number input{
+    padding: 8px;
+    font-size: 1.5rem;
+    width: 3rem;
+    border: 1px solid rgb(156, 153, 136);
+    border-radius: 3px;
+
+}
+#number input:hover
+{
+    background-color:rgb(213, 209, 116);
+}
+#btn
+{
+  padding-top: 10px;
+}
+button
+{
+    background-color: rgb(236, 202, 8);
+    padding: 8px;
+    border:3px solid rgb(236, 202, 8);
+    border-radius: 3px;
+}
+
+#nums.style
+{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:rgba(149, 99, 38, 0.513);
+    text-align: center;
+}
+a.colorchange
+{
+    background-color: brown;
+    color: yellow;
+}
+#info.styles
+{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+li.datalist
+{
+  list-style: circle;
+}
+/* /* #randomnumber_ul
+{
+    background-color: ;
+} */
+/* section li.randomnumberli
+{
+    list-style: circle;
+} */ 
+
+#number_of_times
+{
+    background-color: var(--color);
+    padding: 2px;
+    border: 1px solid var(--color);
+}
+#input_value
+{
+    background-color: var(--color);
+    padding: 2px;
+    border: 1px solid var(--color);
+}
+
+
